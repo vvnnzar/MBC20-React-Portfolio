@@ -6,8 +6,8 @@ export default function Header({ menuOpen, setMenuOpen }) {
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className="logo">
-            zara:code
+          <a href="#intro">
+            <i className="fas fa-home fa-2x"></i>
           </a>
         </div>
         <div className="right">

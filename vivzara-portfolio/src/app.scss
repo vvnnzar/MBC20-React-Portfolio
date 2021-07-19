@@ -1,6 +1,7 @@
 * {
-  color: black;
+  color: white;
   font-family: "Poppins", Arial, sans-serif;
+  overflow: hidden;
 }
 
 .app {
@@ -15,4 +16,15 @@
   scroll-behavior: smooth;
   height: 90%;
   scroll-snap-align: start;
+}
+
+.btn {
+  background: gold;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0.4rem 1rem;
+  text-decoration: none;
+  border-radius: 3%;
+  float: center;
 }

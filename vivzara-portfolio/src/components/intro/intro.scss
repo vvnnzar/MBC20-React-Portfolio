@@ -1,62 +1,67 @@
 .intro {
   height: 100%;
   display: flex;
+  background-color: #131316;
 
   .leftPane {
     flex: 0.4;
-    background-color: pink;
     margin-top: 40px;
-    width: 100%;
+    width: 80%;
     height: 90%;
     border-radius: 50%;
     overflow: hidden;
+    margin-left: 4rem;
+    // background-color: goldenrod;
 
-    .imgContainer {
-      width: 700px;
-      height: 700px;
-      border-radius: 50%;
-    }
+    // .imgContainer {
+    //   width: 700%;
+    //   height: 700px;
+    //   border-radius: 50%;
+    // }
 
     .img {
       border-radius: 50%;
-      margin-left: 40px;
-      margin-top: 20px;
+      margin-left: 24rem;
+      margin-top: 150px;
+      // border-style: solid;
+      // border-color: goldenrod;
     }
   }
-}
 
-.rightPane {
-  flex: 0.4;
-  color: black;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  padding: 30px;
+  .rightPane {
+    flex: 0.5;
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 30px;
+    height: 60%;
 
-  h1 {
-    font-size: 60px;
-    margin: 10px 0;
-  }
+    h1 {
+      font-size: 60px;
+      margin: 10px 0;
+    }
 
-  h3 {
-    font-size: 30px;
-    span {
+    h3 {
       font-size: 30px;
-      color: crimson;
+      span {
+        font-size: 30px;
+        color: gold;
+      }
     }
-  }
-  img {
-    position: absolute;
-    bottom: 10px;
-    left: 40%;
-    width: 30px;
-    animation: arrowBlink 2s infinite;
+    img {
+      position: absolute;
+      bottom: 10px;
+      left: 40%;
+      width: 30px;
+      animation: arrowBlink 2s infinite;
 
-    @keyframes arrowBlink {
-      100% {
-        opacity: 0;
+      @keyframes arrowBlink {
+        100% {
+          opacity: 0;
+        }
       }
     }
   }

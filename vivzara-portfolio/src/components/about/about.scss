@@ -5,7 +5,8 @@
   height: 100%;
   text-align: justify;
   align-content: center;
-  background-color: pink;
+  background-color: #08080a;
+  overflow: hidden;
 
   img {
     height: 900px;
@@ -15,12 +16,15 @@
 }
 
 .aboutContent {
-  box-shadow: 10px 10px 75px rgba(0, 0, 0, 0.596);
-  padding: 20px;
+  box-shadow: 10px 10px 75px rgba(46, 40, 40, 0.596);
+  padding: 10px;
   margin: auto;
+  margin-right: 60px;
   align-items: center;
   width: 95%;
-  height: 70%;
+  height: 70;
+  background-color: white;
+  color: black;
 
   h1 {
     text-align: center;
@@ -34,6 +38,7 @@
     font-size: 18px;
     line-height: 2;
     padding: 0 40px;
+    color: black;
   }
 
   .signOff {

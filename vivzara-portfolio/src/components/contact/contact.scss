@@ -1,6 +1,6 @@
 .contactWrapper {
   height: 100%;
-  background-color: pink;
+  background-color: #131316;
   overflow: hidden;
   padding: 20px;
 
@@ -30,41 +30,10 @@
   a {
     margin-top: 3rem;
     align-content: centre;
+    font-size: 12px;
   }
 
   i {
     margin: auto;
-    animation: dash 2s infinite;
   }
-}
-
-/* icons design inspired by https://codepen.io/rdeber/pen/QYEJJQ*/
-
-@keyframes dash {
-  0% {
-    stroke: rgba(119, 16, 16, 0.25);
-    stroke-dashoffset: 3000;
-    fill: rgba(255, 255, 255, 0);
-  }
-  75% {
-    stroke: rgba(255, 255, 255, 0.25);
-    fill: rgba(255, 255, 255, 0);
-    stroke-dashoffset: 0;
-  }
-  100% {
-    stroke: rgba(255, 255, 255, 0);
-    fill: rgba(255, 255, 255, 0.25);
-  }
-}
-
-.svg-inline--fa {
-  font-size: 7rem;
-}
-
-.svg-inline--fa path {
-  margin-right: 1rem;
-  stroke-width: 8px;
-  stroke-linecap: round;
-  stroke-dasharray: 6000;
-  animation: dash 5s linear forwards;
 }
