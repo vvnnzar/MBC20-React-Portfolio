@@ -1,0 +1,18 @@
+* {
+  color: black;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.app {
+  height: 100vh;
+}
+
+.sections {
+  height: 90%;
+  position: relative;
+  top: 70px;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  height: 90%;
+  scroll-snap-align: start;
+}

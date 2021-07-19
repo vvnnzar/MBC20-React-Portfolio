@@ -1,0 +1,31 @@
+:root {
+  --dark: rgb(15, 15, 15);
+  --light: #fff;
+  --shadow: 10px 10px 75px rgba(0, 0, 0, 0.596);
+  --bright: rgb(255, 192, 203);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+  background-color: var(--bright);
+  margin: 30px 50px;
+  line-height: 1.4;
+}
+
+img {
+  max-width: 100%;
+  box-shadow: var(--shadow);
+}
+
+h1 {
+  margin-top: 6rem;
+  letter-spacing: 1.5rem;
+  text-transform: uppercase;
+}

@@ -1,0 +1,41 @@
+.menu {
+  width: 200px;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 8%;
+  right: -200px;
+  z-index: 2;
+  align-items: centre;
+  justify-content: centre;
+  transition: all 1s ease;
+
+  &.active {
+    right: 0;
+  }
+
+  ul {
+    margin: 10px 10px;
+    padding-top: 10px;
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  li {
+    margin-bottom: 20px;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    &:hover {
+      font-weight: 500;
+      font-size: 30px;
+    }
+  }
+}
