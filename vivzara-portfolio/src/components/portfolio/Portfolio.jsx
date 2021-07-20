@@ -7,11 +7,11 @@ export default function Portfolio() {
     <div id="portfolio" className="portfolioContainer">
       <div className="label">
         <h1>My Portfolio</h1>
-        <p>Stay tuned! More coming soon!</p>
+        <h3>Stay tuned! More coming soon</h3>
       </div>
       <div className="portfolio">
-        <div className="item">
-          <h1>TechREADY Website</h1>
+        <div className="item1">
+          <h2>TechREADY Website</h2>
           <img
             src="./assets/images/techReady_Homepage.png"
             alt="password generator application"
@@ -19,11 +19,8 @@ export default function Portfolio() {
           <p>Built in collaboration with Monash Bootcamp Students.</p>
           <p>
             The TechREADY application allows Junior developers to seek answers
-            to hard interview questions,
-          </p>
-          <p>
-            connect with tutors and obtain reference material prior to taking an
-            interview.
+            to hard interview questions, connect with tutors and obtain
+            reference material prior to taking an interview.
           </p>
           <a
             href="https://gentle-headland-96957.herokuapp.com/"
@@ -34,8 +31,8 @@ export default function Portfolio() {
             Visit
           </a>
         </div>
-        <div className="item">
-          <h1>Gaming Website</h1>
+        <div className="item2">
+          <h2>Gaming Website</h2>
           <img
             src="./assets/images/game_app_screen design.png"
             alt="gaming application"

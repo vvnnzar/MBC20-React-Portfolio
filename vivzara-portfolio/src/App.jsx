@@ -7,6 +7,7 @@ import Menu from "./components/menu/Menu";
 import "./components/icons/FontawesomeIcons";
 import { useState } from "react";
 import "./app.scss";
+import "./mediaQuery.scss";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);

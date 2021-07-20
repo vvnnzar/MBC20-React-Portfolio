@@ -1,3 +1,5 @@
+@import "../../mediaQuery.scss";
+
 .about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -6,43 +8,74 @@
   text-align: justify;
   align-content: center;
   background-color: #08080a;
-  overflow: hidden;
+  @include mobile {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+  }
 
   img {
     height: 900px;
     width: 1000px;
     object-fit: cover;
+    @include mobile {
+      height: 200px;
+      width: 200px;
+      object-fit: cover;
+    }
   }
 }
 
 .aboutContent {
-  box-shadow: 10px 10px 75px rgba(46, 40, 40, 0.596);
-  padding: 10px;
-  margin: auto;
-  margin-right: 60px;
+  padding: 5px;
+  margin: 5px, 5px;
   align-items: center;
-  width: 95%;
-  height: 70;
-  background-color: white;
-  color: black;
+  width: 90%;
+  height: 70%;
+  background-color: #08080a;
+  color: white;
+  @include mobile {
+    background-color: #08080a;
+    height: 100%;
+    padding: 0px 2px;
+    align-items: centre;
+    margin-top: 10px;
+  }
 
   h1 {
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 0rem;
+    margin-right: 30px;
     padding: 10px;
     text-transform: uppercase;
+    @include mobile {
+      font-size: 20px;
+      margin: auto;
+    }
   }
 
   p {
-    margin-left: 30px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 2;
-    padding: 0 40px;
-    color: black;
+    padding: 30px 40px;
+    color: white;
+    margin-right: 60px;
+    @include mobile {
+      display: flex;
+      font-size: 11px;
+      margin: 20px 20px;
+      // text-align: justify;
+      line-height: 1.5;
+      padding: 1px;
+    }
   }
 
   .signOff {
     font-family: "Fuggles", cursive;
     font-size: 40px;
+    float: right;
+    @include mobile {
+      font-size: 20px;
+      float: right;
+    }
   }
 }
