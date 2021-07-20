@@ -1,7 +1,8 @@
+@import "../../mediaQuery.scss";
+
 .menu {
   width: 200px;
-  height: 100vh;
-  // background-color: black;
+  height: 240px;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -11,6 +12,11 @@
   align-items: centre;
   justify-content: centre;
   transition: all 1s ease;
+  background-color: goldenrod;
+  @include mobile {
+    width: 140px;
+    height: 185px;
+  }
 
   &.active {
     right: 0;
@@ -24,18 +30,29 @@
     text-decoration: none;
     align-items: center;
     justify-content: center;
+    @include mobile {
+      font-size: 14px;
+    }
   }
 
   li {
     margin-bottom: 20px;
+    justify-content: center;
     a {
       text-decoration: none;
       color: white;
+      padding: 5px;
+      margin-left: 10px;
     }
 
     &:hover {
       font-weight: 500;
       font-size: 30px;
+      background-color: goldenrod;
+      padding: 5px;
+      @include mobile {
+        font-size: 15px;
+      }
     }
   }
 }
