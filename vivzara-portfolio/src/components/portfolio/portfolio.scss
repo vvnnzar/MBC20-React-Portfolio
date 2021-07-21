@@ -16,12 +16,16 @@
   margin-top: 0.5rem;
   text-align: center;
   padding: 10px;
+  color: #ffde59;
+  h3 {
+    color: white;
+  }
   @include mobile {
     h1 {
       font-size: 20px;
     }
     h3 {
-      font-size: 12px;
+      font-size: 10px;
       @include mobile {
         margin: auto;
       }
@@ -50,14 +54,15 @@
   .item2 {
     align-items: center;
     text-align: center;
-    box-shadow: 10px 10px 75px rgba(0, 0, 0, 0.596);
+    box-shadow: 10px 10px 75px rgba(245, 238, 238, 0.596);
     height: 90%;
     @include mobile {
       margin: auto;
-      padding: 3px;
+      padding: 4px;
       bottom: 30px;
-      background-color: #131316;
+      background-color: #24242b;
       box-shadow: 10px 10px 75px rgba(0, 0, 0, 0.596);
+      height: 250px;
     }
 
     img {

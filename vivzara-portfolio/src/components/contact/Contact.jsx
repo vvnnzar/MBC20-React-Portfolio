@@ -6,7 +6,7 @@ export default function Contact() {
     <section className="contactWrapper" id="contact">
       <div className="label" id="contact">
         <h1>Let's work together!</h1>
-        <p>Learn more or reach out</p>
+        <h3>Learn more or reach out</h3>
         <br></br>
       </div>
       <div className="contactContainer">

@@ -28,7 +28,7 @@ h3 {
 }
 
 .btn {
-  background: gold;
+  background: #ffde59;
   color: black;
   font-size: 10px;
   font-weight: bold;
@@ -36,8 +36,4 @@ h3 {
   text-decoration: none;
   border-radius: 3%;
   float: center;
-  // @include mobile {
-  //   font-size: 8px;
-  //   float: right;
-  // }
 }

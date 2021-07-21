@@ -4,6 +4,7 @@ import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
+import Footer from "./components/footer/Footer";
 import "./components/icons/FontawesomeIcons";
 import { useState } from "react";
 import "./app.scss";
@@ -20,6 +21,9 @@ function App() {
         <About />
         <Portfolio />
         <Contact />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

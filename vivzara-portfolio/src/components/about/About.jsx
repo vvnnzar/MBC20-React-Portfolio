@@ -20,8 +20,10 @@ export default function About() {
           was time to rise to the challenge and learn to 'build' that optimal
           solution.
         </p>
-        <p>So here I am, a Full Stack Web Developer.</p>
-        <p> With hard work and dedication anything is possible.</p>
+        <p>
+          So here I am, a Full Stack Web Developer. With hard work and
+          dedication anything is possible.
+        </p>
         <p>I look forward to delivering a full solution for your business.</p>
         <p className="signOff">Regards, Vivianne Zara</p>
       </div>

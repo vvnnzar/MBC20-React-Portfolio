@@ -75,14 +75,14 @@
       font-size: 30px;
       span {
         font-size: 30px;
-        color: goldenrod;
+        color: gold;
         @include mobile {
           font-size: 14px;
           font-weight: bold;
         }
       }
       @include mobile {
-        font-size: 15px;
+        font-size: 14px;
       }
     }
     img {
