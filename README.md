@@ -11,11 +11,9 @@ This REACT portfolio is a personal respresentation of accomplishments to date as
 
 
 ### Screen layout and Design
+(![Vivianne Zara Portfolio Mobile Version](https://github.com/vvnnzar/MBC20-React-Portfolio/blob/main/vivzara-portfolio/public/assets/screen%20design/mobile.png))
 
-The following image depicts the web application's appearance and functionality:
-(![Vivianne Zara Portfolio Mobile Version](https://github.com/))
-
-(![Vivianne Zara Portfolio Laptop Version](https://github.com/))
+(![Vivianne Zara Portfolio Laptop Version](https://github.com/vvnnzar/MBC20-React-Portfolio/blob/main/vivzara-portfolio/public/assets/screen%20design/laptop.png))
 
 
 
@@ -63,14 +61,13 @@ To update the project with latest code:
 
 ### Main Technologies Used
 
-- REACT
+    REACT
 
 ### Versioning
 
-v1.0 21/07/2021
+    v1.0 21/07/2021
 
 ### License
 
-MIT
-
-Vivianne Zara @ zara:Code 2021
+    MIT
+    Vivianne Zara @ zara:Code 2021
