@@ -9,6 +9,8 @@ This REACT portfolio is a personal respresentation of accomplishments to date as
 
 ### Project Link
 
+https://vvnnzar.github.io/MBC20-React-Portfolio/
+
 
 ### Screen layout and Design
 (![Vivianne Zara Portfolio Mobile Version](https://github.com/vvnnzar/MBC20-React-Portfolio/blob/main/vivzara-portfolio/public/assets/screen%20design/mobile.png))
@@ -23,7 +25,8 @@ This development was completed in part using the following online references:
 
 Using the above information lets go back to our regex email example and look at it further:
 
-    https://youtu.be/7WwtzsSHdpI
+    https://youtu.be/
+    
 
 ### Installation
 
